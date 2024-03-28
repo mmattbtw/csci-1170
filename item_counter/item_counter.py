@@ -5,6 +5,7 @@ def main():
     while name != "":
         count += 1
         name = file.readline()
+    file.close()
     print(f"There are {count} names.")
 
 if __name__ == "__main__":
