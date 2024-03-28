@@ -1,0 +1,8 @@
+chug jug
+40
+chug jug 2
+324
+chug jug 3
+400
+chug jug 4
+320
