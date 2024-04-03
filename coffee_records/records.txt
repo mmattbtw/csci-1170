@@ -1,7 +1,7 @@
 chug jug
-40
+500
 chug jug 2
-324
+50
 chug jug 3
 400
 chug jug 4
