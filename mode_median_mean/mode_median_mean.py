@@ -6,6 +6,8 @@ def main():
 
     print("Median:", Median(steps), "Mean:", Mean(steps), "Mode:", Mode(steps))
 
+    file.close()
+
 def Median(steps):
     numbers = steps[:]
     numbers.sort()
@@ -13,7 +15,7 @@ def Median(steps):
     if len(numbers) % 2 == 0:
         return numbers[len(numbers) // 2]
     else:
-        return numbers[len(numbers) // 2 - 1]
+        return (numbers[len(numbers) // 2 - 1] + numbers[len(numbers) // 2]) / 2
 
 def Mean(steps):
     return sum(steps) / len(steps)
